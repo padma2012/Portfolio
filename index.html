@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Priyanka Savjani — VC & AI Tools</title>
+  <meta name="description" content="A self-taught technical investor building tools to source and evaluate early-stage AI companies. AI Capital Flows, an LLM chatbot from scratch, and a logo velocity tracker." />
+  <meta property="og:title" content="Priyanka Savjani — VC & AI Tools" />
+  <meta property="og:description" content="A self-taught technical investor building tools to source and evaluate early-stage AI companies." />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;450;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%E2%97%88%3C/text%3E%3C/svg%3E" />
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="nav">
+    <a href="#top" class="nav__mark">P<span>S</span></a>
+    <nav class="nav__links">
+      <a href="#tools">Tools</a>
+      <a href="#approach">Approach</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle color theme">
+      <span class="theme-toggle__dot"></span>
+    </button>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero__inner">
+        <p class="eyebrow reveal">Investor · Builder</p>
+        <h1 class="hero__title reveal">
+          I evaluate AI companies for a living —
+          <span class="accent">so I taught myself to build the tools that source them.</span>
+        </h1>
+        <p class="hero__lede reveal">
+          Post-exit, I picked up Python and SQL because I wanted to understand the
+          technical side of the companies I back, not just the business model. Three
+          tools later, they've become how I find and pressure-test deals before they
+          reach mainstream flow.
+        </p>
+        <div class="hero__cta reveal">
+          <a href="#tools" class="btn btn--primary">See what I've built</a>
+          <a href="#approach" class="btn btn--ghost">Why I build</a>
+        </div>
+        <dl class="hero__stats reveal">
+          <div>
+            <dt>Tools shipped</dt>
+            <dd>03</dd>
+          </div>
+          <div>
+            <dt>Signal refresh</dt>
+            <dd>Daily · 7am</dd>
+          </div>
+          <div>
+            <dt>Coverage</dt>
+            <dd>EU + US</dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+    <!-- TOOLS -->
+    <section class="section" id="tools">
+      <div class="section__head reveal">
+        <span class="section__index">01 — 03</span>
+        <h2 class="section__title">The tools</h2>
+        <p class="section__sub">
+          Each one started as a question I couldn't answer from a pitch deck.
+        </p>
+      </div>
+
+      <div class="tools">
+        <!-- Tool 1 -->
+        <article class="tool reveal">
+          <div class="tool__meta">
+            <span class="tool__num">01</span>
+            <span class="tool__tag">Sourcing signal</span>
+          </div>
+          <div class="tool__body">
+            <h3 class="tool__name">AI Capital Flows</h3>
+            <p class="tool__desc">
+              A dashboard that tracks early-stage AI investment activity across Europe
+              and the US, refreshing every morning at 7am. It pulls funding data and
+              surfaces patterns by sector, stage, and geography — my primary sourcing
+              signal for spotting companies and sub-sectors heating up before they hit
+              mainstream deal flow.
+            </p>
+            <ul class="tool__points">
+              <li>Automated daily ingest, live by 7am</li>
+              <li>Pattern breakdowns across sector · stage · geography</li>
+              <li>Used to front-run consensus on emerging themes</li>
+            </ul>
+            <div class="tool__foot">
+              <a class="link-out" href="https://aicapitalflows.com" target="_blank" rel="noopener">
+                aicapitalflows.com <span class="link-out__arrow">↗</span>
+              </a>
+              <div class="tool__stack">
+                <span>Python</span><span>SQL</span><span>Dashboard</span>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Tool 2 -->
+        <article class="tool reveal">
+          <div class="tool__meta">
+            <span class="tool__num">02</span>
+            <span class="tool__tag">First principles</span>
+          </div>
+          <div class="tool__body">
+            <h3 class="tool__name">LLM Chatbot, from scratch</h3>
+            <p class="tool__desc">
+              I built a language-model chatbot from the ground up to understand how
+              these systems actually work at the architecture level — not to ship a
+              product, but to be able to reason about the models underneath the
+              companies I evaluate. There's no better way to interrogate a technical
+              claim than to have built the thing yourself.
+            </p>
+            <ul class="tool__points">
+              <li>Built to learn architecture, not to abstract it away</li>
+              <li>Grounds my technical diligence in real intuition</li>
+              <li>Deployed and live to poke at</li>
+            </ul>
+            <div class="tool__foot">
+              <a class="link-out" href="https://pri-chatbot.onrender.com" target="_blank" rel="noopener">
+                pri-chatbot.onrender.com <span class="link-out__arrow">↗</span>
+              </a>
+              <div class="tool__stack">
+                <span>Python</span><span>LLM</span><span>From scratch</span>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Tool 3 -->
+        <article class="tool reveal">
+          <div class="tool__meta">
+            <span class="tool__num">03</span>
+            <span class="tool__tag">Adoption proxy</span>
+          </div>
+          <div class="tool__body">
+            <h3 class="tool__name">Logo Velocity Tracker</h3>
+            <p class="tool__desc">
+              A tracker that scans startup websites monthly to measure customer-logo
+              growth over time. When revenue data isn't available — which, at the
+              stage I invest, is most of the time — logo velocity becomes a
+              defensible proxy for enterprise adoption and momentum.
+            </p>
+            <ul class="tool__points">
+              <li>Monthly automated scans of customer logos</li>
+              <li>Growth measured over time, not point-in-time</li>
+              <li>A proxy for adoption when revenue is opaque</li>
+            </ul>
+            <div class="tool__foot">
+              <a class="link-out" href="https://logogrowth.onrender.com/" target="_blank" rel="noopener">
+                logogrowth.onrender.com <span class="link-out__arrow">↗</span>
+              </a>
+              <div class="tool__stack">
+                <span>Python</span><span>Scraping</span><span>Time-series</span>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- APPROACH -->
+    <section class="section section--split" id="approach">
+      <div class="split__left reveal">
+        <span class="section__index">The approach</span>
+        <h2 class="section__title">
+          I'd rather build the instrument than trust someone else's dashboard.
+        </h2>
+      </div>
+      <div class="split__right">
+        <p class="reveal">
+          I spent years on the operating side and came out of an exit with a
+          conviction that stuck: the best way to understand a company is to
+          understand what it's actually made of. So I learned to code — properly,
+          not superficially.
+        </p>
+        <p class="reveal">
+          Each tool here answers a real gap in how early-stage AI gets evaluated.
+          Where does capital concentrate before the narrative catches up? How do
+          these models behave when you strip away the marketing? Is a company
+          actually being adopted, or just funded? I don't outsource those questions
+          anymore.
+        </p>
+        <p class="reveal">
+          The result is diligence with fewer blind spots — and sourcing that runs a
+          step ahead of the crowd.
+        </p>
+        <ul class="approach__list reveal">
+          <li><strong>Technical fluency</strong> — Python & SQL, self-taught, applied daily</li>
+          <li><strong>Original signal</strong> — proprietary data, not consensus feeds</li>
+          <li><strong>Operator's lens</strong> — built by someone who has run a company</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section contact" id="contact">
+      <div class="contact__inner reveal">
+        <span class="section__index">Get in touch</span>
+        <h2 class="contact__title">
+          Building something in early-stage AI, or want to compare notes on
+          any of these tools?
+        </h2>
+        <a class="btn btn--primary btn--lg" href="mailto:savjanipriyanka@gmail.com">
+          savjanipriyanka@gmail.com
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>© <span id="year"></span> Priyanka Savjani</span>
+    <span class="footer__note">Designed & built as part of the portfolio.</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
